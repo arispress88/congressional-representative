@@ -1,0 +1,25 @@
+.words {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: large;
+     /* Evenly space the child elements */
+}
+
+.joe {
+    flex-basis: 15%;  
+    border: solid white;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: left;
+    
+}
+
+.stuff {
+    font-family: fantasy;
+}
+
+html {
+    background-color: paleturquoise;
+}
